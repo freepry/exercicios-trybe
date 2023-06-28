@@ -1,5 +1,86 @@
 body {
-    background-color: rgb(223, 253, 245);
+    background-color: rgb(0, 0, 0);
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
 
+  .titutlo {
+    text-align: center;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 40px;
+
+  }
+
+  #foto {
+    width: 300px;
+    border-radius: 20px;
+    color: aliceblue;
+    margin: 100px;
+    text-align: center;
+    border: 10px;
+  }
+
+  .descricao {
+    color:aliceblue;
+    font-size: 18px;
+    margin-top: 10px;
+    vertical-align: top;
+    margin: 50px;
+
+  }
+
+  .lista {
+    color: aliceblue;
+    font-size: 25px;
+    margin: 50px;
+  }
+
+  .html {
+    color: aliceblue;
+    font-weight: bold;
+  }
+
+  .html:hover {
+    color: rgb(185, 11, 216);
+    font-weight: bold;
+  }
+
+  .css {
+    color: white;
+    font-weight: bold;
+  }
+
+  .css:hover {
+    color: rgb(185, 11, 216);
+    font-weight: bold;
+  }
+
+  .javascript {
+    color: aliceblue;
+    font-weight: bold;
+  }
+
+  .javascript:hover {
+    color: rgb(185, 11, 216);
+    font-weight: bold;
+  }
+
+  .figma {
+    color: aliceblue;
+    font-weight: bold;
+  }
+
+  .figma:hover {
+    color: rgb(185, 11, 216);
+    font-weight: bold;
+  }
+
+  .desk {
+    color: aliceblue;
+    font-weight: bold;
+  }
+
+  .desk:hover {
+    color: rgb(185, 11, 216);
+    font-weight: bold;
+  }
