@@ -1,34 +1,65 @@
-.super-mario {
-    width: 200px;
-    position: absolute;
-    left: 100px;
-    top: 100px;
-}
+h1, p {
+    text-align: center;
+    font-size: 30px;
+  }
 
-.goomba {
-    width: 100px;
-    position: absolute;
-    top: 400px;
-    left: 150px;
-}
+  ul:hover, ol:hover {
+    background-color: rgb(207, 12, 12);
+  }
 
-.baloon {
-    position: absolute;
-    top: 250px;
-    left: 400px;
-}
+  li:active {
+    font-family: sans-serif, Helvetica;
+    font-size: 20px;
+  }
 
-.speach {
-    font-size: 25px;
-    position: absolute;
-    top: 290px;
-    left: 420px;
-    z-index: 2; 
-}
+  li {
+    list-style: none;
+  }
 
-.bowser {
-    width: 200px;
-    position: absolute;
-    top: 300px;
-    left: 700px;
+  div:hover {
+    border: 2px solid black;
+  }
+
+  div:nth-of-type(1) {
+    background-color: red;
+  }
+  div:nth-of-type(2) {
+    background-color: green;
+    color: white;
+  }
+  div:nth-of-type(3) {
+    background-color: yellow;
+  }
+
+  div:nth-of-type(4) {
+    background-color: grey;
+  }
+  div:nth-of-type(5) {
+    background-color: lightblue;
+  }
+
+  div:nth-of-type(1) > h3 {
+    color: purple;
+  }
+
+  div:nth-of-type(2) > :nth-child(2) {
+    color: black 
+  }
+  div:nth-of-type(3) > h3 {
+    font-size: 20px;
+  }
+  div:nth-of-type(4) > h3 {
+    font-family: monospace;
+  }
+
+  div:nth-of-type(5) > h3 {
+    font-style: italic
+  }
+
+  div:nth-of-type(3) {
+    height: 100px;
+  }
+
+  div:nth-child(odd) h3 {
+    font-style: italic
   }
