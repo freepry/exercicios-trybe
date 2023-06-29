@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a href="#"> <img src="data:image/png;base64,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" alt=""></a>
+        </div>
+    </div>
+
+    <div class="login-body">
+        <div class="login-box">
+            <h2>Entrar</h2>
+            <form>
+                <div class="input-box">
+                    <input required type="email" placeholder="Email ou numero de telefone">
+                </div>
+
+                <div class="input-box">
+                    <input required type="password" placeholder="Senha">
+                </div>
+
+                <div>
+                    <button class="submit">
+                        Entrar
+                    </button>
+                </div>
+            </form>
+
+            <div class="suport">
+                <div class="remember">
+                    <span><input type="checkbox" style="margin: 0;padding: 0; height: 13px;"></span>
+                    <samp>Lembre-se de min</samp>
+                </div>
+
+                <div class="help">
+                    <a href="#">Precisa de ajuda?</a>
+                </div>
+            </div>
+
+            <div class="login-footer">
+                <div class="login-facebook">
+                    <span><img height="20px" src="data:image/png;base64,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" alt="facebook"></span>
+                    <span>
+                    <a href="#">Conectar com Facebook</a></span>
+                </div>
+
+                <div class="sign-up">
+                  <p>Novo por aqui?<a href="#">Assine agora.</a></p>  
+
+                </div>
+
+                <div class="terms">
+                    <p>Está página é protegida pelo Goolge reCAPTCHA para garantir que você não é um robô.<a href="Saiba mais"></a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
