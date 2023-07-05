@@ -11,14 +11,16 @@ body {
 
   }
 
-  #foto {
-    width: 300px;
-    border-radius: 20px;
-    color: aliceblue;
-    margin: 100px;
-    text-align: center;
-    border: 10px;
+  .container {
+    display: flex;
+    align-items: center;
   }
+  
+  #foto {
+    margin-right: 20px;
+    border-radius: 30px;
+  }
+
 
   .descricao {
     color:aliceblue;
@@ -30,24 +32,32 @@ body {
   }
 
   .lista {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: aliceblue;
     font-size: 25px;
-    margin: 50px;
   }
 
   .html {
     color: aliceblue;
     font-weight: bold;
+    text-align: center;
+    list-style-type: none;
   }
 
   .html:hover {
     color: rgb(185, 11, 216);
     font-weight: bold;
+    list-style-type: none;
   }
 
   .css {
     color: white;
     font-weight: bold;
+    text-align: center;
+    list-style-type: none;
   }
 
   .css:hover {
@@ -58,6 +68,8 @@ body {
   .javascript {
     color: aliceblue;
     font-weight: bold;
+    text-align: center;
+    list-style-type: none;
   }
 
   .javascript:hover {
@@ -68,6 +80,8 @@ body {
   .figma {
     color: aliceblue;
     font-weight: bold;
+    text-align: center;
+    list-style-type: none;
   }
 
   .figma:hover {
@@ -78,6 +92,8 @@ body {
   .desk {
     color: aliceblue;
     font-weight: bold;
+    text-align: center;
+    list-style-type: none
   }
 
   .desk:hover {
