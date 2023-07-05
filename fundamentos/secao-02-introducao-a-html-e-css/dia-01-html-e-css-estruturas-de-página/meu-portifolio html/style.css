@@ -1,103 +1,110 @@
 body {
-    background-color: rgb(0, 0, 0);
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  }
+  background-color: rgb(0, 0, 0);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
 
-  .titutlo {
-    text-align: center;
-    color: aliceblue;
-    font-weight: bolder;
-    font-size: 40px;
+.titulo {
+  text-align: center;
+  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 40px;
+  text-decoration: overline underline;
+}
 
-  }
+.container {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
 
-  .container {
-    display: flex;
-    justify-content: center;
-    width: auto;
-  }
-  
-  #foto {
-    margin-right: 20px;
-    border-radius: 30px;
-  }
+#foto {
+  width: 180px;
+  border-radius: 30px;
+}
 
 
-  .descricao {
-    color:aliceblue;
-    font-size: 16px;
-    margin-top: 10px;
-    vertical-align: top;
-    margin: 50px;
+.descricao {
+  width: 30%;
+  color:aliceblue;
+  font-size: 16px;
+  margin-top: 10px;
+  vertical-align: top;
+  margin: 10px 0 0 40px;
+}
 
-  }
+.descricao a {
+  color: inherit;
+  font-weight: 700;
+}
 
-  .lista {
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: aliceblue;
-    font-size: 25px;
-  }
+.lista {
+  text-align: center;
+  flex-direction: column;
+  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 25px;
+}
 
-  .html {
-    color: aliceblue;
-    font-weight: bold;
-    text-align: center;
-    list-style-type: none;
-  }
+.html {
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+}
 
-  .html:hover {
-    color: rgb(185, 11, 216);
-    font-weight: bold;
-    list-style-type: none;
-  }
+.html:hover {
+  color: rgb(185, 11, 216);
+  font-weight: bold;
+  list-style-type: none;
+}
 
-  .css {
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    list-style-type: none;
-  }
+.css {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+}
 
-  .css:hover {
-    color: rgb(185, 11, 216);
-    font-weight: bold;
-  }
+.css:hover {
+  color: rgb(185, 11, 216);
+  font-weight: bold;
+}
 
-  .javascript {
-    color: aliceblue;
-    font-weight: bold;
-    text-align: center;
-    list-style-type: none;
-  }
+.javascript {
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+}
 
-  .javascript:hover {
-    color: rgb(185, 11, 216);
-    font-weight: bold;
-  }
+.javascript:hover {
+  color: rgb(185, 11, 216);
+  font-weight: bold;
+}
 
-  .figma {
-    color: aliceblue;
-    font-weight: bold;
-    text-align: center;
-    list-style-type: none;
-  }
+.figma {
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none;
+}
 
-  .figma:hover {
-    color: rgb(185, 11, 216);
-    font-weight: bold;
-  }
+.figma:hover {
+  color: rgb(185, 11, 216);
+  font-weight: bold;
+}
 
-  .desk {
-    color: aliceblue;
-    font-weight: bold;
-    text-align: center;
-    list-style-type: none
-  }
+.desk {
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  list-style-type: none
+}
 
-  .desk:hover {
-    color: rgb(185, 11, 216);
-    font-weight: bold;
-  }
+.desk:hover {
+  color: rgb(185, 11, 216);
+  font-weight: bold;
+}
