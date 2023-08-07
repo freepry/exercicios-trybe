@@ -9,7 +9,7 @@
     <h1 id='title'>Formulário Trybe Travel</h1>
 
     <form id="main-form">
-        
+
         <label for="fullName">Nome Completo:</label>
         <input
             type="text"
@@ -20,6 +20,7 @@
             minlength="10"
             required
         />
+        <br><br>
 
         <label for="email">Email:</label>
         <input
@@ -31,6 +32,7 @@
             minlength="10"
             required
         />
+        <br><br>
 
         <label for="destination1">Cidade</label>
         <input
@@ -71,6 +73,7 @@
             value="Montanhas"
             required
         />
+        <br><br>
 
         <label for="question">
         </label>
@@ -84,27 +87,40 @@
             maxlength="500"
         ></textarea>
 
+        <br><br>
+
         <label for="date">Qual a melhor data para realizar sua viagem?</label>
         <input type="date" id="date" />
 
+        <br><br>
+
         <label for="promo">
-                Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe.
+         Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe.
         </label>
         <input type="checkbox" name="promo" id="promo" />
+
+        <br><br>
 
         <label for="promo">
             Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe.
           </label>
           <input type="checkbox" name="promo" id="promo" />
           
+          <br><br>
+
         <label for="agreement">
-            Concordo que imagens de minhas férias poderão ser usadas na divulgação de concursos futuros.
+         Concordo que imagens de minhas férias poderão ser usadas na divulgação de concursos futuros.
         </label>
         <input type="checkbox" name="agreement" id="agreement" required />
+        
+        <br><br>
         
         <button type="submit" id="submit-btn">Enviar</button>
         <button type="reset" id="clear-btn">Limpar</button>     
 
     </form>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
