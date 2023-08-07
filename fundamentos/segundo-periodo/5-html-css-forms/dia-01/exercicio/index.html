@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+</head>
+<body>
+    <h1 id='title'>Formulário Trybe Travel</h1>
+
+    <form id="main-form">
+        
+        <label for="fullName">Nome Completo:</label>
+        <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            placeholder="Digite seu nome completo"
+            maxlength="40"
+            minlength="10"
+            required
+        />
+
+        <label for="email">Email:</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu e-mail"
+            maxlength="50"
+            minlength="10"
+            required
+        />
+
+        <label for="destination1">Cidade</label>
+        <input
+            type="radio"
+            id="destination1"
+            className="radios"
+            name="destinations"
+            value="Cidade"
+            required
+        />
+
+        <label for="destination2">Campo</label>
+        <input
+            type="radio"
+            id="destination2"
+            className="radios"
+            name="destinations"
+            value="Campo"
+            required
+        />
+  
+        <label for="destination3">Praia</label>
+        <input
+            type="radio"
+            id="destination3"
+            className="radios"
+            name="destinations"
+            value="Praia"
+            required
+        />
+        
+        <label for="destination4">Montanhas</label>
+        <input
+            type="radio"
+            id="destination4"
+            className="radios"
+            name="destinations"
+            value="Montanhas"
+            required
+        />
+
+        <label for="question">
+        </label>
+        <br />
+        <textarea
+            name="why"
+            id="question"
+            cols="60"
+            rows="10"
+            placeholder="Digite sua resposta vencedora aqui"
+            maxlength="500"
+        ></textarea>
+
+        <label for="date">Qual a melhor data para realizar sua viagem?</label>
+        <input type="date" id="date" />
+
+        <label for="promo">
+                Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe.
+        </label>
+        <input type="checkbox" name="promo" id="promo" />
+
+        <label for="promo">
+            Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe.
+          </label>
+          <input type="checkbox" name="promo" id="promo" />
+          
+        <label for="agreement">
+            Concordo que imagens de minhas férias poderão ser usadas na divulgação de concursos futuros.
+        </label>
+        <input type="checkbox" name="agreement" id="agreement" required />
+        
+        <button type="submit" id="submit-btn">Enviar</button>
+        <button type="reset" id="clear-btn">Limpar</button>     
+
+    </form>
+</body>
+</html>
