@@ -1,11 +1,21 @@
 // Vamos importar nossa biblioteca
 import validator from 'validator';
+// import Inputmask from 'inputmask';
 
 // Aqui, vamos selecionar, pelos ids, os campos em nossa página
 const campoDeTexto = document.querySelector('#value');
 const button = document.querySelector('#button');
 const seletor = document.querySelector('#option');
 const textoDeSaida = document.querySelector('#answer');
+
+// const removeMask = (value) => {
+//   const newValue = value.replaceAll('.', '').replace('-', '');
+//   return newValue;
+// };
+
+// if (seletor.value === 'cpf') {
+//   Inputmask().mask(campoDeTexto);
+// }
 
 const UUID_VERSION = 4;
 
@@ -18,7 +28,8 @@ button.addEventListener('click', (event) => {
   // serem validados. Por exemplo, a chave CPF valida se
   // o campoDeTexto.value é um CPF.
   const campos = {
-    cpf: validator.isTaxID(campoDeTexto.value, 'pt-BR'),
+    // cpf: validator.isTaxID(removeMask(campoDeTexto.value), 'pt-BR'),
+    cpf: validator.isTaxID(ampoDeTexto.value, 'pt-BR'),
     hexColor: validator.isHexColor(campoDeTexto.value),
     email: validator.isEmail(campoDeTexto.value),
     uuid: validator.isUUID(campoDeTexto.value, UUID_VERSION),
